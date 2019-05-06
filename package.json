@@ -5,7 +5,7 @@
   "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=development webpack-dev-server --devtool eval --progress --colors --hot",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --devtool eval --progress --colors --hot",
     "prod": "webpack -p"
   },
   "repository": {
@@ -18,11 +18,12 @@
     "react": "^0.13.3"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "css-loader": "^0.16.0",
     "file-loader": "^0.8.4",
     "font-awesome": "^4.4.0",
     "jsx-loader": "^0.13.2",
-    "node-sass": "^3.3.2",
+    "node-sass": "^4.12.0",
     "sass-loader": "^2.0.1",
     "style-loader": "^0.12.3",
     "url-loader": "^0.5.6",

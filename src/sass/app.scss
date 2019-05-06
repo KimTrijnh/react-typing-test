@@ -115,7 +115,9 @@ i.fa {
 }
 .wpm,
 .errors,
-.timer {
+.timer,
+.total_score,
+.score {
   display: inline-block;
   font-family: 'proxima-bold', sans-serif;
   color: lighten($background, 7%);
@@ -187,3 +189,14 @@ i.fa {
     }
   }
 }
+
+.small-text {
+  font-size: 12px;
+  padding: 0
+}
+.message {
+  color: $yellow
+}
+// .d-flex {
+//   display: flex
+// }
