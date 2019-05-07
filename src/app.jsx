@@ -1,7 +1,7 @@
 var React = require("react");
 require("./sass/app.scss");
 require("font-awesome/css/font-awesome.css");
-var excerpts = require("./excerpts.js");
+// var excerpts = require("./excerpts.js");
 
 var TextDisplay = React.createClass({
   _getCompletedText: function() {
@@ -363,4 +363,4 @@ var Footer = React.createClass({
   }
 });
 
-React.render(<App excerpts={excerpts} />, document.getElementById("container"));
+React.render(<App />, document.getElementById("container"));
